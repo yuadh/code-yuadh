@@ -11,7 +11,7 @@
 
 </p>
 
-<h2 align="center">vuepress-theme-vdoing</h2>
+<h2 align="center">111vuepress-theme-vdoing</h2>
 
 * [文档 (国内源)](https://doc.xugaoyi.com/)
 * [效果：Evan's blog](https://xugaoyi.com/)
