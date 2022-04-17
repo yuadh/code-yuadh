@@ -32,12 +32,20 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
           {
-            text: '个人网站',
-            link: '/pages/cd919e/'
+            text: '个人站点',
+            link: '/pages/21ecd6/'
+          },
+          {
+            text: '常用导航',
+            link: '/pages/608fa7/'
+          },
+          {
+            text: '临时学习',
+            link: '/pages/93385c/'
           },
           {
             text: '大佬博客',
-            link: '/pages/7888a6/'
+            link: '/pages/ddc6be/'
           },
         ],
       },
@@ -45,15 +53,27 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '资源',
         link: '/res/',
         items: [
-          { text: '编程资源', link: '/pages/97b878/' },
-          { text: '其它资源', link: '/pages/9e309c/' },
+          { text: '编程资源', link: '/pages/b80dd5/' },
+          { text: '设计资源', link: '/pages/b56a78/' },
+          { text: '剪辑资源', link: '/pages/d6dc8a/' },
+          { text: '其它资源', link: '/pages/ddc099/' },
+        ],
+      },
+      {
+        text: '文章',
+        link: '/art/',
+        items: [
+          { text: '技术博客', link: '/pages/2c1e27/' },
+          { text: '问题解决', link: '/pages/520142/' },
+          { text: '收藏文章', link: '/pages/33b8b2/' },
+          { text: '其它', link: '/pages/827a9f/' },
         ],
       },
       {
         text: '其它',
         link: '/other/',
         items: [
-          { text: '其它', link: '/pages/d81807/' },
+          { text: '其它', link: '/pages/a77d62/' },
         ],
       },
     ],
@@ -153,7 +173,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
   // 注入到页面<head>中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
   head: [
-    ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
+    ['link', { rel: 'icon', href: '/img/logo.png' }], //favicons，资源放在public文件夹
     [
       'meta',
       {
