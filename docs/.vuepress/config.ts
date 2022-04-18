@@ -25,7 +25,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   themeConfig: {
     // 导航配置
     nav: [
-      { text: '首页', link: '/main' },
+      { text: '首页', link: '/' },
       {
         text: '导航',
         link: '/nav/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
@@ -66,6 +66,16 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '技术博客', link: '/pages/2c1e27/' },
           { text: '问题解决', link: '/pages/520142/' },
           { text: '收藏文章', link: '/pages/33b8b2/' },
+          { text: '其它', link: '/pages/827a9f/' },
+        ],
+      },
+      {
+        text: '临时',
+        link: '/temp/',
+        items: [
+          { text: 'HTML', link: '/pages/2c1e27/' },
+          { text: 'CSS', link: '/pages/520142/' },
+          { text: 'JavaScript', link: '/pages/33b8b2/' },
           { text: '其它', link: '/pages/827a9f/' },
         ],
       },
