@@ -200,9 +200,4 @@ postList: none
   .pageT .wwads-hide{display:none!important;} */
 </style>
 
-<script>
-  window.addEventListener('load',function(){
-    let del = document.querySelector('.banner');
-    del.parentNode.removeChild(del)
-  })
-</script>
+
