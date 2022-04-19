@@ -1,16 +1,19 @@
----
+<!-- ---
 home: true
+heroText: 
 bannerBg: none 
 postList: none
----
+--- -->
 
 <!-- part_1:main -->
 
 
-## 📊主页面板
 
 
-<p align="center">
+
+
+
+<!-- <p align="center">
   <a class="become-sponsor" href="https://code.yuadh.com">文档网站</a>
 </p>
 
@@ -27,21 +30,90 @@ postList: none
   box-sizing: border-box;
   border: 1px solid #11a8cd;
 }
-</style>
+</style> -->
 
 
 <br/>
 
+<div class="HL_part page-mb"> 📊主页面板</div>
+<div class="mb-warp">
+    <div class="mb-part1">
+      <div class="cart1">
+        <span>0/4000 h</span>
+        <span>0/40   d</span>
+        <span>0/40   d</span>
+        <span>0/4    p</span>
+      </div>
+    </div>
+    <div class="mb-part2"></div>
+    <div class="mb-part3"></div>
+    <div class="mb-part4"></div>
+</div>
+<style>
+    @font-face {
+        font-family: 'mainfont';
+        src: url('/fonts/YaHei Consolas Hybrid.ttf');
+        font-style: normal;
+        font-weight: normal;
+    }
+    .HL_part {
+        text-align: center;
+        font-family: 'mainfont';
+        font-size: 28px;
+        font-weight: 400;
+        letter-spacing: 0.8px;
+    }
+    .page-mb {
+        margin-top: -80px;
+    }  
+    .mb-warp {
+        display:flex;
+        flex-wrap: wrap;
+        height: 1200px;
+        background: url('/img/mb-bk2.jpg') no-repeat  center top;
+        background-size:cover;
+        opacity:0.4;
+    }
+    .mb-warp>*{
+      margin:0;
+      box-sizing: border-box ;
+      height:600px;
+      width:50%;
+      opacity:0.8;
+    }
+    .mb-part1{
+      background-color:#fff;
+      border:1px solid black;
+    }
+    .mb-part1>.cart1{
+      box-sizing:border-box;
+      margin:40px 40px 40px 40px;
+      height:;
+      background:red;
+      opacity:1;
+    }
+    .mb-part4{
+      background-color:#fff;
+      border:1px solid black;
+    }
+    .mb-part2{
+      background-color:#F4F4F4;
+      border:1px solid black;
+    }
+    .mb-part3{
+      background-color:#F4F4F4;
+      border:1px solid black;
+    }
+</style>
 
-|                          GitHub状态                          |                        使用最多的语言                        |
+<!-- |                          GitHub状态                          |                        使用最多的语言                        |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=yuadh&show_icons=true&theme=synthwave) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yuadh&&hide=tsql) |
+| ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=yuadh&show_icons=true&theme=synthwave) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yuadh&&hide=tsql) | -->
 
 
+<div class="HL_part"> 🎉阶段计划</div>
 
-## 🎉阶段计划
-
-### 日计划
+<h3>日计划</h3>
 
 🔲 上午基础学习
 
@@ -53,11 +125,11 @@ postList: none
 
 
 
-### 周计划
+<h3>周计划</h3>
 
 
 
-### 阶段计划
+<h3>阶段计划</h3>
 
 
 
@@ -67,8 +139,7 @@ postList: none
 
 
 
-
-## 🥝快速通道
+<div class="HL_part"> 🥝快速通道</div>
 
 ::: cardList 2
 
@@ -99,10 +170,7 @@ postList: none
 
 
 
-
-
-
-## ⚡ 说明引导
+<div class="HL_part"> ⚡说明引导</div>
 
 在无事可做迷茫时，稍微引导下无助的我
 
