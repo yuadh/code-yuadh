@@ -1,48 +1,90 @@
 
 export default{
-  // 个人网站导航数组
+  // 个人网站导航数据
   myWebItems:[
     {
-      item_title:'yuadhのstudy_time',
+      item_title:'编程主页',
       item_desc:'个人编程主页',
-      item_icon_href:'#icon-mdn',
+      item_icon_href:'#icon-ziyuanzhuye',
       item_a_href:'https://www.yuadh.com',
       item_a_title:'yuadh'
     },
     {
-      item_title:'yuadhのstudy_time',
-      item_desc:'个人编程主页',
-      item_icon_href:'#icon-elasticsearch-Elasticsearch',
-      item_a_href:'https://www.yuadh.com',
-      item_a_title:'yuadh'
+      item_title:'学习笔记',
+      item_desc:'个人编程笔记',
+      item_icon_href:'#icon-shuji',
+      item_a_href:'https://code.yuadh.com',
+      item_a_title:'note'
     },
     {
-      item_title:'yuadhのstudy_time',
-      item_desc:'个人编程主页',
-      item_icon_href:'#icon-elasticsearch-Elasticsearch',
-      item_a_href:'https://www.yuadh.com',
-      item_a_title:'yuadh'
+      item_title:'Github',
+      item_desc:'个人GitHub仓库',
+      item_icon_href:'#icon-github',
+      item_a_href:'https://www.github.com/yuadh',
+      item_a_title:'github'
     },
     {
-      item_title:'yuadhのstudy_time',
-      item_desc:'个人编程主页',
-      item_icon_href:'#icon-elasticsearch-Elasticsearch',
-      item_a_href:'https://www.yuadh.com',
-      item_a_title:'yuadh'
+      item_title:'DrawIo',
+      item_desc:'个人作图工具',
+      item_icon_href:'#icon-file_type_drawio',
+      item_a_href:'https://www.draw.io/',
+      item_a_title:'drawio'
     },
     {
-      item_title:'yuadhのstudy_time',
-      item_desc:'个人编程主页',
-      item_icon_href:'#icon-elasticsearch-Elasticsearch',
-      item_a_href:'https://www.yuadh.com',
-      item_a_title:'yuadh'
+      item_title:'海词词典',
+      item_desc:'单词查询网站',
+      item_icon_href:'#icon-dict',
+      item_a_href:'https://dict.cn/',
+      item_a_title:'dict'
     },
     {
-      item_title:'yuadhのstudy_time',
-      item_desc:'个人编程主页',
-      item_icon_href:'#icon-elasticsearch-Elasticsearch',
-      item_a_href:'https://www.yuadh.com',
-      item_a_title:'yuadh'
+      item_title:'力扣刷题',
+      item_desc:'面试刷题网站',
+      item_icon_href:'#icon-leetcode',
+      item_a_href:'https://leetcode-cn.com/',
+      item_a_title:'leetcode'
+    },
+    {
+      item_title:'知识星球',
+      item_desc:'加入的编程圈子',
+      item_icon_href:'#icon-zhishixingqiu-active',
+      item_a_href:'https://wx.zsxq.com/dweb2/index/group/51122858222824',
+      item_a_title:'知识星球'
+    },
+    {
+      item_title:'CSDN',
+      item_desc:'中文博客',
+      item_icon_href:'#icon-csdn',
+      item_a_href:'https://blog.csdn.net/',
+      item_a_title:'csdn'
+    },
+    {
+      item_title:'Bilibili',
+      item_desc:'小心二刺螈',
+      item_icon_href:'#icon-bilibili',
+      item_a_href:'https://www.bilibili.com/',
+      item_a_title:'B站'
+    },
+    {
+      item_title:'Gitee',
+      item_desc:'国内版GitHub',
+      item_icon_href:'#icon-gitee',
+      item_a_href:'https://www.gitee.com/',
+      item_a_title:'gitee'
+    },
+    {
+      item_title:'掘金',
+      item_desc:'讨论社区',
+      item_icon_href:'#icon-a-6c61ae65d1c41ae8221a670fa32d05aa',
+      item_a_href:'https://juejin.cn/',
+      item_a_title:'掘金'
+    },
+    {
+      item_title:'前端路线',
+      item_desc:'已购培训机构课程',
+      item_icon_href:'#icon-xinqianduanluru',
+      item_a_href:'https://www.boxuegu.com/class/detail-4438.html',
+      item_a_title:'web'
     },
   ]
 }

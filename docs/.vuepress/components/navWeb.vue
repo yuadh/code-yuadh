@@ -29,7 +29,7 @@
       </main>
     </div>
     <script src="/resource/font/iconfont.js"></script>
-</body>
+  </body>
 </template>
 
 <script>
@@ -40,10 +40,6 @@ export default {
       datList:dataList.myWebItems
     }
   },
-  created(){
-    const aL = dataList.myWebItems
-    console.log(aL)
-  }
 }
 </script>
 

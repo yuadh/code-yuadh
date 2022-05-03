@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 3192987 */
-  src: url('iconfont.woff2?t=1645342640979') format('woff2'),
-       url('iconfont.woff?t=1645342640979') format('woff'),
-       url('iconfont.ttf?t=1645342640979') format('truetype');
+  src: url('iconfont.woff2?t=1651541270542') format('woff2'),
+       url('iconfont.woff?t=1651541270542') format('woff'),
+       url('iconfont.ttf?t=1651541270542') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,54 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-csdn:before {
+  content: "\e638";
+}
+
+.icon-shuji:before {
+  content: "\e6be";
+}
+
+.icon-ziyuanzhuye:before {
+  content: "\e67e";
+}
+
+.icon-xinqianduanluru:before {
+  content: "\e668";
+}
+
+.icon-github:before {
+  content: "\e64c";
+}
+
+.icon-bilibili:before {
+  content: "\e609";
+}
+
+.icon-zhishixingqiu-active:before {
+  content: "\e61c";
+}
+
+.icon-dict:before {
+  content: "\e604";
+}
+
+.icon-gitee:before {
+  content: "\e628";
+}
+
+.icon-leetcode:before {
+  content: "\e60d";
+}
+
+.icon-file_type_drawio:before {
+  content: "\e611";
+}
+
+.icon-a-6c61ae65d1c41ae8221a670fa32d05aa:before {
+  content: "\e74a";
 }
 
 .icon-advance:before {

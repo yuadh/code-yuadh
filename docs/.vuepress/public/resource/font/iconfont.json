@@ -6,6 +6,90 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "4546550",
+      "name": "csdn",
+      "font_class": "csdn",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "5483232",
+      "name": "书籍",
+      "font_class": "shuji",
+      "unicode": "e6be",
+      "unicode_decimal": 59070
+    },
+    {
+      "icon_id": "6988584",
+      "name": "资源主页",
+      "font_class": "ziyuanzhuye",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    },
+    {
+      "icon_id": "8020870",
+      "name": "新前端录入",
+      "font_class": "xinqianduanluru",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "8760187",
+      "name": "github",
+      "font_class": "github",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "15882053",
+      "name": "bilibili",
+      "font_class": "bilibili",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "16745228",
+      "name": "知识星球-active",
+      "font_class": "zhishixingqiu-active",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "19708482",
+      "name": "海词词典",
+      "font_class": "dict",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "26038883",
+      "name": "gitee",
+      "font_class": "gitee",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "26267624",
+      "name": "leetcode",
+      "font_class": "leetcode",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "27469880",
+      "name": "file_type_drawio",
+      "font_class": "file_type_drawio",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "27496609",
+      "name": "掘金",
+      "font_class": "a-6c61ae65d1c41ae8221a670fa32d05aa",
+      "unicode": "e74a",
+      "unicode_decimal": 59210
+    },
+    {
       "icon_id": "1190657",
       "name": "advance",
       "font_class": "advance",
