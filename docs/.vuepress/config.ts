@@ -7,10 +7,10 @@ import { VdoingThemeConfig } from 'vuepress-theme-vdoing/types'
 import dayjs from 'dayjs'
 import baiduCode from './config/baiduCode' // 百度统计hm码
 import htmlModules from './config/htmlModules' // 自定义插入的html块
-
+// import ElementUI from 'element-ui'
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
-  // theme: 'vdoing', // 使用npm主题包
-  theme: resolve(__dirname, '../../vdoing'), // 使用本地主题包
+  theme: 'vdoing', // 使用npm主题包
+  // theme: resolve(__dirname, '../../vdoing'), // 使用本地主题包
 
   locales: {
     '/': {
@@ -208,17 +208,16 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   plugins: <UserPlugins>[
 
     // 'vuepress-plugin-baidu-autopush', // 百度自动推送
-
     // [
     //   'vuepress-plugin-baidu-tongji', // 百度统计
     //   {
     //     hm: baiduCode,
     //   },
     // ],
-
+    
     // 全文搜索。 ⚠️注意：此插件会在打开网站时多加载部分js文件用于搜索，导致初次访问网站变慢。如在意初次访问速度的话可以不使用此插件！（推荐：vuepress-plugin-thirdparty-search）
     'fulltext-search',
-
+    // 'element-ui',
     // 可以添加第三方搜索链接的搜索框（继承原官方搜索框的配置参数）
     // 'thirdparty-search': {
     //   thirdparty: [
@@ -245,7 +244,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     //     },
     //   ],
     // },
-
     [
       'one-click-copy', // 代码块复制按钮
       {
@@ -306,8 +304,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         },
       },
     ],
+    // 'element-ui',
   ],
-
   markdown: {
     lineNumbers: true,
     extractHeaders: ['h2', 'h3', 'h4', 'h5', 'h6'], // 提取标题到侧边栏的级别，默认['h2', 'h3']
