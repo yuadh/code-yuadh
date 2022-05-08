@@ -3,22 +3,22 @@
     <!-- 功能选择 -->
     <div class="topSwitch">
       <!-- title -->
-      <div class="title">Page1</div>
+      <div @click="mode01" class="title">Page1</div>
       <!-- tip -->
-      <div class="tip">概况:<span> 0/15</span>!</div>
+      <div class="tip">概况:<span> {{testRightNum}}/15</span>!</div>
       <!-- buttons -->
       <div class="myBtns" style="display:flex">
-        <myBtn title="A"/>
-        <myBtn title="B"/>
-        <myBtn title="C"/>
+        <myBtn @click.native="mode01" title="A"/>
+        <myBtn @click.native="mode02" title="B"/>
+        <myBtn @click.native="mode03" title="C"/>
       </div>
     </div>
     <!-- main -->
     <div class="main">
-      <div v-for="i in 15" :key="i" class="aword">
-        <a href="javascript:;">word</a>
-        <!-- <a href="javascript:;"><em>n.</em>单词</a> -->
-        <input type="text" tabindex="1"/>
+      <div v-for="(i,index) in dat" :key="index" class="aword">
+        <a v-if="wordsShow" :href="`https://dict.cn/${i}`" target="_blank">{{i}}</a>
+        <a v-if="meansShow" :href="`https://dict.cn/${i}`" target="_blank"><em>n.</em>{{meanDat[index]}}</a>
+        <input v-if="testShow" type="text" tabindex="1"  @blur="wordCheck($event,i,index)"/>
       </div>
     </div>
   </div>
@@ -26,20 +26,76 @@
 
 <script>
 import myBtn from './myBtn.vue'
+// import axios from 'axios'
+// import {loadDat} from '../utils/loadDat'
 export default {
   components:{
     myBtn
+  },
+  data(){
+    return{
+      wordsShow:true,
+      meansShow:true,
+      testShow:false,
+      testRightArray:[
+        false,false,false,false,false,
+        false,false,false,false,false,
+        false,false,false,false,false
+      ],
+      testRightNum:0
+    }
   },
   props:{
     color:{
       type:String,
       default:'rgba(34,32,46,.1)'
+    },
+    dat:{
+      type:Array,
+      required:true
+    },
+    meanDat:{
+      type:Array,
+      required:true
+    }
+  },
+  created () {
+  },
+  methods: {
+    mode01(){
+      this.testRightNum = 0
+      console.log('a模式')
+      this.wordsShow = true
+      this.meansShow = true
+      this.testShow = false
+    },
+    mode02(){
+      this.testRightNum = 0
+      this.wordsShow = false
+      this.meansShow = true
+      this.testShow = true
+    },
+    mode03(){
+      this.testRightNum = 0
+      this.wordsShow = true
+      this.meansShow = false
+      this.testShow = true
+    },
+    wordCheck(value,compWord,index){
+      const userInp = value.target.value
+      if(userInp===compWord){
+        this.testRightArray[index]=true
+      }else{
+        this.testRightArray[index]=false
+      }
+      // 更新testNum个数
+      this.testRightNum = this.testRightArray.filter(obj=>obj===true).length
     }
   }
 }
 </script>
 
-<style lang="less">
+<style  lang="less">
   .container{
     .hoverShadow();
     position: relative;
@@ -48,6 +104,7 @@ export default {
     box-shadow: 0px 8px 9px rgba(0,0,0,0.2) ;
     border-radius: 14px;
     .topSwitch{
+      user-select: none;
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
       z-index: 4;
@@ -65,6 +122,9 @@ export default {
         color: #ccc;
         font-family: 'PingFang SC';
         margin-left: 24px;
+        &:hover{
+          cursor: pointer;
+        }
       }
       .tip{
         font-size: 22px;
@@ -138,6 +198,11 @@ export default {
     &:hover{
       transform: translate3d(0,-3px,0);
       box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+  }
+  @keyframes fadeEle{
+    0%{opacity: 1;}
+    50%{opacity: .5;}
+    100%{opacity: 0;}
   }
   input[type="text"],
   input[type="search"],
