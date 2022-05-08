@@ -25,9 +25,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   themeConfig: {
     // 导航配置
     nav: [
-      { text: '首页', link: '/' },
       {
-        text: '导航',
+        text: '导航资源',
         link: '/nav/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
@@ -47,43 +46,56 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             text: '大佬博客',
             link: '/pages/ddc6be/'
           },
+          {
+            text:'资源模块',
+            link:'/pages/b80dd5/'
+          }
         ],
       },
       {
-        text: '资源',
-        link: '/res/',
+        text: '综合教程',
+        link: '/course/',
         items: [
-          { text: '编程资源', link: '/pages/b80dd5/' },
-          { text: '设计资源', link: '/pages/b56a78/' },
-          { text: '剪辑资源', link: '/pages/d6dc8a/' },
-          { text: '其它资源', link: '/pages/ddc099/' },
+          { text: '前端编程', link: '/pages/6fe604/' },
+          { text: '前端设计', link: '/pages/448b54/' },
+          { text: 'MAD制作', link: '/pages/5eaf35/' },
         ],
       },
       {
-        text: '文章',
-        link: '/art/',
+        text: '编程实践',
+        link: '/code/',
         items: [
-          { text: '技术博客', link: '/pages/2c1e27/' },
-          { text: '问题解决', link: '/pages/520142/' },
-          { text: '收藏文章', link: '/pages/33b8b2/' },
-          { text: '其它', link: '/pages/827a9f/' },
+          { text: 'HTML', link: '/pages/e25ddc/' },
+          { text: 'CSS', link: '/pages/9ff365/' },
+          { text: 'JavaScript', link: '/pages/5d055e/' },
+          { text: 'vue', link: '/pages/5ae89c/' },
         ],
       },
       {
-        text: '临时',
-        link: '/temp/',
+        text: '编程主页',
+        link: '/pages/db2c09/',
+      },
+      {
+        text: '博客题集',
+        link: '/works/',
         items: [
-          { text: 'HTML', link: '/pages/2c1e27/' },
-          { text: 'CSS', link: '/pages/520142/' },
-          { text: 'JavaScript', link: '/pages/33b8b2/' },
-          { text: '其它', link: '/pages/827a9f/' },
+          { text: '博客', link: '/pages/85bfba/' },
+          { text: '题集', link: '/pages/5e7dd2/' },
+        ],
+      },
+      {
+        text: 'web',
+        link: '/web/',
+        items: [
+          { text: 'A4背单词', link: '/pages/da46ec/' },
+          { text: 'toDoList', link: '/pages/2df188/' },
         ],
       },
       {
         text: '其它',
         link: '/other/',
         items: [
-          { text: '其它', link: '/pages/a77d62/' },
+          { text: '临时', link: '/pages/0f55b3/' },
         ],
       },
     ],
