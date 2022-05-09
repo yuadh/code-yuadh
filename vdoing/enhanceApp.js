@@ -2,6 +2,8 @@
 import Vue from 'vue'
 import CodeBlock from "@theme/global-components/CodeBlock.vue"
 import CodeGroup from "@theme/global-components/CodeGroup.vue"
+import Element from 'element-ui/lib/index';
+import 'element-ui/lib/theme-chalk/index.css';
 // Register the Vue global component
 Vue.component(CodeBlock)
 Vue.component(CodeGroup)
@@ -31,6 +33,7 @@ export default ({
 
   // 将对文章数据的处理结果混入Vue实例
   Vue.mixin(postsMixin)
+  Vue.use(Element)
 }
 
 
