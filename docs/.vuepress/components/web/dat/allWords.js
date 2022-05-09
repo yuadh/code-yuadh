@@ -26,28 +26,28 @@ export const day01 = [
 ]
 
 export const day02 = [
-    ['accelerate', 'indispensable', 'abuse', 'evaluate', 'primarily',
-        'grave', 'architect', 'conflict', 'confuse', 'sheer',
-        'absorb', 'prompt', 'supply', 'deny', 'superficial'
+    ['resolution', 'perspective', 'decline', 'grateful', 'engage',
+        'acquire', 'discipline', 'necessity', 'mature', 'brand',
+        'efficient', 'alter', 'count', 'account', 'aggressive'
     ],
-    ['substitute', 'recruit', 'maintain', 'contain', 'obtain',
-        'compromise', 'privilege', 'demonstrate', 'claim', 'challenge',
-        'condemn', 'symbol', 'sample', 'advantage', 'assign'
+    ['embarrass', 'possess', 'circulate', 'influence', 'resistant',
+        'consist', 'accommodate', 'candidate', 'lad', 'sincere',
+        'hobby', 'monopoly', 'static', 'profound', 'senator'
     ],
-    ['imitate', 'controversy', 'contradiction', 'pressure', 'consistent',
-        'constant', 'instant', 'disguise', 'fundamental', 'concern',
-        'reinforce', 'propose', 'proposal', 'dispose', 'expose'
+    ['remote', 'emotion', 'software', 'fasten', 'stir',
+        'equip', 'distribute', 'attribute', 'frown', 'solution',
+        'describe', 'supreme', 'limb', 'panel', 'assistant'
     ],
-    ['compose', 'oppose', 'amateur', 'tough', 'gross',
-        'unexpected', 'reveal', 'essential', 'enhance', 'dismiss',
-        'conventional', 'enthusiasm', 'abundant', 'expand', 'advocate'
+    ['ministry', 'core', 'bride', 'statistic', 'statue',
+        'mess', 'sector', 'minus', 'detection', 'pregnant',
+        'civilization', 'skilful', 'overhead', 'grant', 'clash'
     ],
-    ['tradition', 'refine', 'harsh', 'idle', 'contemporary',
-        'consume', 'presume', 'assume', 'resume', 'pursue',
-        'afford', 'range', 'refer', 'deceive', 'conquer'
+    ['saucer', 'cushion', 'comprehensive', 'presence', 'emergency',
+        'apply', 'intermediate', 'guitar', 'personnel', 'slim',
+        'status', 'enclose', 'steady', 'label', 'sponsor'
     ],
-    ['queue', 'authority', 'manual', 'convict', 'evil',
-        'confirm', 'balance', 'neglect', 'justify', 'prejudice',
-        'rarely', 'conceal', 'calculate', 'approach', 'resolve'
+    ['portion', 'client', 'mental', 'result', 'punch',
+        'ambassador', 'derive', 'steer', 'steep', 'option',
+        'steamer', 'attitude', 'altitude', 'scandal', 'domestic'
     ],
 ]
