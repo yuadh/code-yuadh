@@ -2,11 +2,14 @@
 title: week01
 date: 2022-05-08 20:12:09
 permalink: /pages/35a640/
-tags:
-  - 
+tags: 
+  - null
 author: 
   name: yuadh
   link: https://github.com/yuadh
+categories: 
+  - 编程主页
+  - weeks
 ---
 ## plan
 
