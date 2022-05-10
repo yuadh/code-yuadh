@@ -51,3 +51,30 @@ export const day02 = [
         'steamer', 'attitude', 'altitude', 'scandal', 'domestic'
     ],
 ]
+
+export const day03 = [
+    ['agent', 'chest', 'precaution', 'prayer', 'nest',
+        'airline', 'definite', 'infinite', 'confine', 'gardener',
+        'shrink', 'object', 'rumor', 'render', 'parade'
+    ],
+    ['stem', 'satisfactory', 'rug', 'incredible', 'stick',
+        'boost', 'breast', 'establish', 'kindness', 'stimulate',
+        'extinct', 'fame', 'stiff', 'lightning', 'abroad'
+    ],
+    ['bound', 'material', 'cultivate', 'rouse', 'display',
+        'biology', 'particle', 'barrier', 'drunk', 'frog',
+        'royal', 'fisherman', 'highlight', 'stocking', 'politican'
+    ],
+    ['barber', 'delegate', 'stock', 'rescue', 'input',
+        'parliament', 'latter', 'latest', 'atmosphere', 'personality',
+        'signature', 'calendar', 'overlook', 'partial', 'debate'
+    ],
+    ['stoop', 'submerge', 'cube', 'strain', 'imply',
+        'carrier', 'submit', 'surrounding', 'stove', 'forecast',
+        'strap', 'layer', 'strategy', 'present', 'knot'
+    ],
+    ['desirable', 'mayor', 'equation', 'neutral', 'accept',
+        'interpret', 'explore', 'routine', 'prove', 'overnight',
+        'likewise', 'ripe', 'abstract', 'suppose', 'access'
+    ],
+]
