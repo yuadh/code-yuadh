@@ -16,8 +16,8 @@
     <!-- main -->
     <div class="main">
       <div v-for="(i,index) in dat" :key="index" class="aword">
-        <a v-if="wordsShow" :href="`https://dict.cn/${i}`" target="_blank">{{i}}</a>
-        <a v-if="meansShow" :href="`https://dict.cn/${i}`" target="_blank"><em>n.</em>{{meanDat[index]}}</a>
+        <a v-if="wordsShow" class="word" :href="`https://dict.cn/${i}`" target="_blank">{{i}}</a>
+        <a v-if="meansShow" class="mean"  :href="`https://dict.cn/${i}`" target="_blank" :class="{error:!testRightArray[index]&&!wordsShow}"><em>n.</em>{{meanDat[index]}}</a>
         <input v-if="testShow" type="text" tabindex="1"  @blur="wordCheck($event,i,index)"/>
       </div>
     </div>
@@ -42,7 +42,8 @@ export default {
         false,false,false,false,false,
         false,false,false,false,false
       ],
-      testRightNum:0
+      testRightNum:0,
+      errorTip:false
     }
   },
   props:{
@@ -63,6 +64,11 @@ export default {
   },
   methods: {
     mode01(){
+      this.testRightArray = [
+        false,false,false,false,false,
+        false,false,false,false,false,
+        false,false,false,false,false
+      ]
       this.testRightNum = 0
       console.log('a模式')
       this.wordsShow = true
@@ -70,12 +76,22 @@ export default {
       this.testShow = false
     },
     mode02(){
+      this.testRightArray = [
+        false,false,false,false,false,
+        false,false,false,false,false,
+        false,false,false,false,false
+      ]
       this.testRightNum = 0
       this.wordsShow = false
       this.meansShow = true
       this.testShow = true
     },
     mode03(){
+      this.testRightArray = [
+        false,false,false,false,false,
+        false,false,false,false,false,
+        false,false,false,false,false
+      ]
       this.testRightNum = 0
       this.wordsShow = true
       this.meansShow = false
@@ -156,15 +172,18 @@ export default {
         width: 33.3333%;
         height: 20%;
         // border:1px solid aqua;
-        a{
+        .word{
           line-height: 1;
           display: inline-block;
-          color: #1AAD19;
+          color: #25ac40;
           // border:1px solid aqua;
-          &:last-of-type{
-            color: #6f8f5f;
-            margin-top: 14px;
-          }
+        }
+        .mean{
+          color: #517957;
+          margin-top: 6px;
+        }
+        .error{
+          color:rgb(223, 78, 78);
         }
         input{
           width: 140px;

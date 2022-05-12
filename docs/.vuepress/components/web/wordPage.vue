@@ -13,19 +13,32 @@
 
 <script>
 import words from './components/words.vue'
-import {day01} from './dat/allWords'
-import {day01 as meanDat} from './dat/allMean'
+import {day01, day02,day03} from './dat/allWords'
+import {mday01,mday02,mday03} from './dat/allMean'
 export default {
+  props:{
+    page:{
+      type:Number,
+      default:0
+    },
+  },
   data(){
     return{
-      dat:day01,
-      meanDat:meanDat
+      dat:'',
+      meanDat:'',
+      pageArray:[day01,day02,day03],
+      pageM:[mday01,mday02,mday03]
     }
   },
   components:{
     words
   },
   methods:{
+  },
+  created(){
+    console.log(this.page)
+    this.dat = this.pageArray[this.page]
+    this.meanDat = this.pageM[this.page]
   }
 }
 </script>
