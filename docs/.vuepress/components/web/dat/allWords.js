@@ -78,3 +78,57 @@ export const day03 = [
         'likewise', 'ripe', 'abstract', 'suppose', 'access'
     ],
 ]
+
+export const h200_1 = [
+    ['claim', 'dramatic', 'trigger', 'extreme', 'literature',
+        'endure', 'irrigation', 'appeal', 'criticize', 'indicate',
+        'tuition', 'intention', 'supplement', 'initiative', 'conclusion'
+    ],
+    ['concentrate', 'highly', 'entire', 'historical', 'tolerant',
+        'insist', 'executive', 'display', 'scholarship', 'definitely',
+        'craft', 'infect', 'volunteer', 'invisible', 'promote'
+    ],
+    ['superior', 'vulnerable', 'maintain', 'proportion', 'conference',
+        'fatigue', 'complex', 'emission', 'stimulate', 'alert',
+        'budget', 'senior', 'recruit', 'desire', 'profitable'
+    ],
+    ['consistent', 'foundation', 'attempt', 'extend', 'substantial',
+        'pattern', 'inspire', 'virtue', 'client', 'profound',
+        'acknowledge', 'equivalent', 'adapt', 'reverse', 'imply'
+    ],
+    ['primary', 'infinite', 'perception', 'optimistic', 'recognition',
+        'rational', 'detect', 'participate', 'painful', 'vary',
+        'determine', 'critic', 'romantic', 'justice', 'sensible'
+    ],
+    ['represent', 'board', 'crash', 'studio', 'portion',
+        'annual', 'average', 'severe', 'pressure', 'margin',
+        'rarely', 'literacy', 'adopt', 'relevant', 'competitive'
+    ],
+]
+
+export const h200_2 = [
+    ['claim', 'dramatic', 'trigger', 'extreme', 'literature',
+        'endure', 'irrigation', 'appeal', 'criticize', 'indicate',
+        'tuition', 'intention', 'supplement', 'initiative', 'conclusion'
+    ],
+    ['concentrate', 'highly', 'entire', 'historical', 'tolerant',
+        'insist', 'executive', 'display', 'scholarship', 'definitely',
+        'craft', 'infect', 'volunteer', 'invisible', 'promote'
+    ],
+    ['superior', 'vulnerable', 'maintain', 'proportion', 'conference',
+        'fatigue', 'complex', 'emission', 'stimulate', 'alert',
+        'budget', 'senior', 'recruit', 'desire', 'profitable'
+    ],
+    ['consistent', 'foundation', 'attempt', 'extend', 'substantial',
+        'pattern', 'inspire', 'virtue', 'client', 'profound',
+        'acknowledge', 'equivalent', 'adapt', 'reverse', 'imply'
+    ],
+    ['primary', 'infinite', 'perception', 'optimistic', 'recognition',
+        'rational', 'detect', 'participate', 'painful', 'vary',
+        'determine', 'critic', 'romantic', 'justice', 'sensible'
+    ],
+    ['represent', 'board', 'crash', 'studio', 'portion',
+        'annual', 'average', 'severe', 'pressure', 'margin',
+        'rarely', 'literacy', 'adopt', 'relevant', 'competitive'
+    ],
+]

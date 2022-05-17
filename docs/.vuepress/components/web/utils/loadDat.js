@@ -1,13 +1,13 @@
 import axios from "axios"
 import fs from "fs"
 // !!!!需要修改区域
-import { day03 } from "../dat/allWords.js"
+import { h200_1 } from "../dat/allWords.js"
 
 // const axios = require('axios');
 // const fs = require("fs")
 // const {day01} = require('../dat/allWords')
 // ！！！！ 需要修改区域
-let wordDat = day03
+let wordDat = h200_1
 let datArray = '';
 let dat = '';
 let matchDat = '';
