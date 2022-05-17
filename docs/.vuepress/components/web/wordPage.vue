@@ -26,8 +26,8 @@ export default {
     return{
       dat:'',
       meanDat:'',
-      pageArray:[day01,day02,day03,h200_1,h200_1],
-      pageM:[mday01,mday02,mday03,mh200_1,mh200_1]
+      pageArray:[day01,day02,day03,h200_1,h200_2],
+      pageM:[mday01,mday02,mday03,mh200_1,mh200_2]
     }
   },
   components:{
