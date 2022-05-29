@@ -13,8 +13,8 @@
 
 <script>
 import words from './components/words.vue'
-import {day01, day02,day03,h200_1,h200_2} from './dat/allWords'
-import {mday01,mday02,mday03,mh200_1,mh200_2} from './dat/allMean'
+import {day01, day02,day03,h200_1,h200_2,last_p1,last_p2} from './dat/allWords'
+import {mday01,mday02,mday03,mh200_1,mh200_2,mlast_p1,mlast_p2} from './dat/allMean'
 export default {
   props:{
     page:{
@@ -26,8 +26,8 @@ export default {
     return{
       dat:'',
       meanDat:'',
-      pageArray:[day01,day02,day03,h200_1,h200_2],
-      pageM:[mday01,mday02,mday03,mh200_1,mh200_2]
+      pageArray:[day01,day02,day03,h200_1,h200_2,last_p1,last_p2],
+      pageM:[mday01,mday02,mday03,mh200_1,mh200_2,mlast_p1,mlast_p2]
     }
   },
   components:{

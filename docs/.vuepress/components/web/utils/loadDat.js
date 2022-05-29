@@ -1,13 +1,13 @@
 import axios from "axios"
 import fs from "fs"
 // !!!!需要修改区域
-import { h200_2 } from "../dat/allWords.js"
+import { last_p2 } from "../dat/allWords.js"
 
 // const axios = require('axios');
 // const fs = require("fs")
 // const {day01} = require('../dat/allWords')
 // ！！！！ 需要修改区域
-let wordDat = h200_2
+let wordDat = last_p2
 let datArray = '';
 let dat = '';
 let matchDat = '';
@@ -24,22 +24,27 @@ async function load(i) {
             })
             dat = res.data.toString()
             matchDat = dat.match(/<strong>(.+)<\/strong>/)[1]
-            console.log(matchDat)
-            console.log(matchDat.match(/[\u4e00-\u9fa5]*/)[0])
+            // console.log(matchDat)
+            // console.log(matchDat.match(/[\u4e00-\u9fa5]*/)[0])
 
             if (j == tempAry.length - 1) {
                 datArray += `'${matchDat.match(/[\u4e00-\u9fa5]*/)}'`
             } else {
                 datArray += `'${matchDat.match(/[\u4e00-\u9fa5]*/)}',`
             }
-            console.log(datArray)
+            for(var z=0;z<datArray.length;z++){
+                process.stdout.write(datArray[z]);
+                if(datArray[z]===']'){
+                    console.log('')
+                }
+            }
         }
         datArray += '],'
-        console.log('??????')
     }
     datArray += ']'
     console.log('--完整格式--');
     console.log(datArray)
+    console.log('\n')
     const writeDat = `
     export const mday02=${datArray}
   `
