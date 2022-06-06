@@ -225,8 +225,8 @@ export const last_p4 = [
         'scenery', 'pledged', 'stricter', 'involved', 'shelters'
     ],
     ['tremendously', 'sincere', 'conceal', 'delivery', 'aisles',
-        'prioritize', 'burnt', 'possession', 'dispute', 'decoratio',
-        'distraction', 'merely', 'consequently', 'commission', 'perform'
+        'prioritize', 'burnt', 'possession', 'dispute', 'decoration',
+        'throat', 'therapy', 'consequently', 'commission', 'perform'
     ],
     ['substitutes', 'fragments', 'Deliberate', 'academy', 'influence',
         'heat', 'frequently', 'memo', 'scary', 'fuel',
@@ -239,5 +239,32 @@ export const last_p4 = [
     ['inspirational', 'director', 'beverages', 'starve', 'exposed',
         'mechanism', 'ancestors', 'distinctive', 'gathering', 'dividing',
         'purchase', 'emergence', 'inattentive', 'fiercely', 'passive'
+    ],
+]
+
+export const jw01 = [
+    ['festival', 'condition', 'enviable', 'generation', 'divide',
+        'distinct', 'convert', 'crash', 'incredible', 'manage',
+        'manufacture', 'nutrient', 'exhibit', 'generation', 'retain'
+    ],
+    ['material', 'starve', 'gather', 'rely', 'represent',
+        'instructor', 'collaborative', 'regularly', 'curriculum', 'faculty',
+        'conference', 'chalk', 'excessive', 'predict', 'observe'
+    ],
+    ['customize', 'inadequate', 'bias', 'sector', 'sector',
+        'perform', 'concrete', 'aware', 'obesity', 'incidence',
+        'induce', 'intake', 'consequently', 'priority', 'reveal'
+    ],
+    ['concentrate', 'vividly', 'evaluate', 'accurate', 'crime',
+        'principle', 'pollution', 'commission', 'anti', 'spoilt',
+        'appearance', 'merely', 'drastic', 'satisfaction', 'font'
+    ],
+    ['imply', 'absurd', 'unexpected', 'sensible', 'impossible',
+        'vast', 'conpensation', 'approach', 'eager', 'deny',
+        'motivate', 'involve', 'incentive', 'cultivate', 'spirit'
+    ],
+    ['domestic', 'affair', 'instinct', 'arouse', 'concern',
+        'effective', 'measure', 'addiction', 'universally', 'significance',
+        'spare', 'effort', 'perspective', 'drawback', 'genuinely'
     ],
 ]
