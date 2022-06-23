@@ -128,6 +128,32 @@ export const h200_2 = [
         'criticism', 'poverty', 'split', 'contrast', 'crucial'
     ],
     ['retirement', 'reveal', 'retail', 'sample', 'frequency',
+        'institution', 'category', 'condition', 'struggling', 'impact',
+        'item', 'organic', 'initial', 'platform', 'overlook'
+    ],
+]，
+export const h1 = [
+    ['indifferent', 'topic', 'classify', 'journal', 'cognition',
+        'invariably', 'pond', 'diagnosed', 'overall', 'engage',
+        'interact', 'reaction', 'intelligence', 'economics', 'characteristic'
+    ],
+    ['accumulate', 'poll', 'regulate', 'species', 'locate',
+        'principle', 'negative', 'recommendation', 'impose', 'upward',
+        'priority', 'variable', 'various', 'ingredient', 'appreciate'
+    ],
+    ['principal', 'export', 'intend', 'response', 'politics',
+        'responsible', 'mission', 'marine', 'genius', 'productivity',
+        'package', 'faculty', 'conclude', 'crime', 'debt'
+    ],
+    ['modification', 'assign', 'equality', 'commit', 'academic',
+        'medium', 'relative', 'transfer', 'rear', 'maximum',
+        'pursuit', 'finance', 'recommend', 'plunge', 'collection'
+    ],
+    ['extent', 'transportation', 'property', 'expression', 'emerge',
+        'scan', 'devote', 'mathematics', 'access', 'respect',
+        'criticism', 'poverty', 'split', 'contrast', 'crucial'
+    ],
+    ['retirement', 'reveal', 'retail', 'sample', 'frequency',
         'institution', 'category', 'tendency', 'federal', 'fossil',
         'item', 'organic', 'initial', 'platform', 'overlook'
     ],
