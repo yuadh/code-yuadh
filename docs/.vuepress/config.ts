@@ -9,15 +9,15 @@ import baiduCode from './config/baiduCode' // 百度统计hm码
 import htmlModules from './config/htmlModules' // 自定义插入的html块
 // import ElementUI from 'element-ui'
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
-  // theme: 'vdoing', // 使用npm主题包
-  theme: resolve(__dirname, '../../vdoing'), // 使用本地主题包
+  theme: 'vdoing', // 使用npm主题包
+  // theme: resolve(__dirname, '../../vdoing'), // 使用本地主题包
 
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: "yuadhのstudy_time",
+      title: 'yuadhのstudy_time',
       description: 'yuadh的个人主页临时网站',
-    }
+    },
   },
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
 
@@ -32,24 +32,24 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
           {
             text: '个人站点',
-            link: '/pages/21ecd6/'
+            link: '/pages/21ecd6/',
           },
           {
             text: '常用导航',
-            link: '/pages/608fa7/'
+            link: '/pages/608fa7/',
           },
           {
             text: '临时学习',
-            link: '/pages/93385c/'
+            link: '/pages/93385c/',
           },
           {
             text: '大佬博客',
-            link: '/pages/ddc6be/'
+            link: '/pages/ddc6be/',
           },
           {
-            text:'资源模块',
-            link:'/pages/b80dd5/'
-          }
+            text: '资源模块',
+            link: '/pages/b80dd5/',
+          },
         ],
       },
       {
@@ -94,9 +94,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         text: '其它',
         link: '/other/',
-        items: [
-          { text: '临时', link: '/pages/0f55b3/' },
-        ],
+        items: [{ text: '临时', link: '/pages/0f55b3/' }],
       },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
@@ -128,9 +126,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // ],
     // contentBgStyle: 1, // 文章内容块的背景风格，默认无. 1 方格 | 2 横线 | 3 竖线 | 4 左斜线 | 5 右斜线 | 6 点状
 
-    updateBar: { // 最近更新栏
+    updateBar: {
+      // 最近更新栏
       showToArticle: false, // 显示到文章页底部，默认true
-      moreArticle: '/archives' // “更多文章”跳转的页面，默认'/archives'
+      moreArticle: '/archives', // “更多文章”跳转的页面，默认'/archives'
     },
     // rightMenuBar: false, // 是否显示右侧文章大纲栏，默认true (屏宽小于1300px下无论如何都不显示)
     // sidebarOpen: false, // 初始状态是否打开左侧边栏，默认true
@@ -185,8 +184,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     extendFrontmatter: {
       author: {
         name: 'yuadh',
-        link: 'https://github.com/yuadh'
-      }
+        link: 'https://github.com/yuadh',
+      },
     },
 
     // 自定义hmtl(广告)模块
@@ -215,10 +214,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // ], // 网站关联Google AdSense 与 html格式广告支持（你可以去掉）
   ],
 
-
   // 插件配置
   plugins: <UserPlugins>[
-
     // 'vuepress-plugin-baidu-autopush', // 百度自动推送
     // [
     //   'vuepress-plugin-baidu-tongji', // 百度统计
@@ -226,7 +223,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     //     hm: baiduCode,
     //   },
     // ],
-    
+
     // 全文搜索。 ⚠️注意：此插件会在打开网站时多加载部分js文件用于搜索，导致初次访问网站变慢。如在意初次访问速度的话可以不使用此插件！（推荐：vuepress-plugin-thirdparty-search）
     'fulltext-search',
     // 'element-ui',
@@ -259,7 +256,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     [
       'one-click-copy', // 代码块复制按钮
       {
-        copySelector: ['div[class*="language-"] pre', 'div[class*="aside-code"] aside'], // String or Array
+        copySelector: [
+          'div[class*="language-"] pre',
+          'div[class*="aside-code"] aside',
+        ], // String or Array
         copyMessage: '复制成功', // default is 'Copy successfully and then paste it for use.'
         duration: 1000, // prompt message display time.
         showInMobile: false, // whether to display on the mobile side, default: false.
@@ -324,8 +324,5 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   },
 
   // 监听文件变化并重新构建
-  extraWatchFiles: [
-    '.vuepress/config.ts',
-    '.vuepress/config/htmlModules.ts',
-  ]
+  extraWatchFiles: ['.vuepress/config.ts', '.vuepress/config/htmlModules.ts'],
 })
