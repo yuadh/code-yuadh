@@ -158,3 +158,139 @@ export const h1 = [
         'item', 'organic', 'initial', 'platform', 'overlook'
     ],
 ]
+
+
+export const last_p1 = [
+    ['stick', 'diet', 'fattening', 'meals', 'obesity',
+        'snacking', 'consumption', 'surveys', 'potential', 'recalling',
+        'amount', 'calorie', 'intake', 'accurately', 'verified'
+    ],
+    ['Statistics', 'actual', 'fallen', 'drastically', 'suspect',
+        'conveyed', 'measurement', 'waistline', 'impact', 'decade',
+        'regardless', 'originally', 'vague', 'handful', 'enhance'
+    ],
+    ['confront', 'significant', 'boredom', 'unique', 'devote',
+        'posts', 'reflect', 'interaction', 'participate', 'media',
+        'genuine', 'ought', 'validated', 'fulfilled', 'harm'
+    ],
+    ['definition', 'reflective', 'struggling', 'provoke', 'relieve',
+        'fundamental', 'superficial', 'unrealistic', 'trendy', 'completion',
+        'tedious', 'associative', 'innovative', 'impressive', 'force'
+    ],
+    ['reform', 'scale', 'capable', 'passionate', 'regarded',
+        'treasured', 'talents', 'schedule', 'proud', 'outstanding',
+        'illustrate', 'cumulate', 'enterprises', 'emerging', 'massive'
+    ],
+    ['freelancers', 'conduct', 'reinforce', 'ventures', 'qualities',
+        'passionate', 'deliver', 'individual', 'consultant', 'assume',
+        'corporate', 'ladder', 'intuition', 'irrelevant', 'nutrition'
+    ],
+]
+
+export const last_p2 = [
+    ['funded', 'awareness', 'spotlight', 'conducted', 'junk',
+        'concord', 'oat', 'roughly', 'sponsor', 'squarely',
+        'dietary', 'regular', 'implementing', 'assess', 'swollen'
+    ],
+    ['repetitive', 'frustrated', 'reliant', 'appreciate', 'adequate',
+        'available', 'penetrates', 'crucial', 'satisfaction', 'machines',
+        'widespread', 'frustration', 'dissatisfaction', 'fault', 'reliable'
+    ],
+    ['tolerate', 'foster', 'facilities', 'tinker', 'principles',
+        'acquire', 'inviting', 'materials', 'engaged', 'spatial',
+        'architectural', 'geometry', 'optimism', 'obtain', 'precision'
+    ],
+    ['resort', 'industrialists', 'Deliberate', 'academy', 'influence',
+        'heat', 'frequently', 'memo', 'scary', 'fuel',
+        'deforestation', 'sales', 'concern', 'battery', 'manufacture'
+    ],
+    ['emergence', 'majority', 'suffering', 'retailers', 'spurring',
+        'exploded', 'prospect', 'forestation', 'diminish', 'opposite',
+        'advocacy', 'coverage', 'subsidies', 'stripping', 'fertile'
+    ],
+    ['farmland', 'enormous', 'occupy', 'idling', 'immune',
+        'Determination', 'concentration', 'fertile', 'abundant', 'exhausted',
+        'inventive', 'alternative', 'inattentive', 'gambling', 'neutral'
+    ],
+]
+
+export const last_p3 = [
+    ['excessive', 'paradoxically', 'academics', 'celebrated', 'dullness',
+        'flocked', 'fulfilling', 'dynamic', 'bursts', 'thriving',
+        'involves', 'sacrifice', 'evolve', 'variations', 'separate'
+    ],
+    ['aspect', 'labor', 'discrimination', 'adversely', 'perception',
+        'inequality', 'shape', 'plastic', 'anxiety', 'depression',
+        'compensation', 'bids', 'incentive', 'involved', 'strengthen'
+    ],
+    ['cultivate', 'chores', 'eager', 'contrasts', 'allowances',
+        'compensate', 'drastic', 'absurd', 'sensible', 'residents',
+        'distraction', 'merely', 'consequently', 'commission', 'perform'
+    ],
+    ['substitutes', 'fragments', 'Deliberate', 'academy', 'influence',
+        'heat', 'frequently', 'memo', 'scary', 'fuel',
+        'deforestation', 'sales', 'encountered', 'integrating', 'bizarre'
+    ],
+    ['generate', 'essential', 'silver', 'peering', 'extinction',
+        'persuaded', 'minor', 'adjusting', 'utterly', 'spreading',
+        'panic', 'refuse', 'bargain', 'strategies', 'recapture'
+    ],
+    ['inspirational', 'director', 'beverages', 'starve', 'exposed',
+        'mechanism', 'ancestors', 'distinctive', 'gathering', 'dividing',
+        'purchase', 'emergence', 'inattentive', 'fiercely', 'passive'
+    ],
+]
+
+export const last_p4 = [
+    ['tossed', 'collaborative', 'motivates', 'donate', 'trait',
+        'prospective', 'anticipated', 'modest', 'fundraising', 'notably',
+        'determine', 'triumphs', 'sufficient', 'pandemic', 'forbid'
+    ],
+    ['decorate', 'renovated', 'permission', 'eliminate', 'supervise',
+        'charity', 'spacious', 'judgment', 'escaped', 'victim',
+        'scenery', 'pledged', 'stricter', 'involved', 'shelters'
+    ],
+    ['tremendously', 'sincere', 'conceal', 'delivery', 'aisles',
+        'prioritize', 'burnt', 'possession', 'dispute', 'decoration',
+        'throat', 'therapy', 'consequently', 'commission', 'perform'
+    ],
+    ['substitutes', 'fragments', 'Deliberate', 'academy', 'influence',
+        'heat', 'frequently', 'memo', 'scary', 'fuel',
+        'deforestation', 'sales', 'encountered', 'integrating', 'bizarre'
+    ],
+    ['generate', 'essential', 'silver', 'peering', 'extinction',
+        'persuaded', 'minor', 'adjusting', 'utterly', 'spreading',
+        'panic', 'refuse', 'bargain', 'strategies', 'recapture'
+    ],
+    ['inspirational', 'director', 'beverages', 'starve', 'exposed',
+        'mechanism', 'ancestors', 'distinctive', 'gathering', 'dividing',
+        'purchase', 'emergence', 'inattentive', 'fiercely', 'passive'
+    ],
+]
+
+export const jw01 = [
+    ['festival', 'condition', 'enviable', 'generation', 'divide',
+        'distinct', 'convert', 'crash', 'incredible', 'manage',
+        'manufacture', 'nutrient', 'exhibit', 'generation', 'retain'
+    ],
+    ['material', 'starve', 'gather', 'rely', 'represent',
+        'instructor', 'collaborative', 'regularly', 'curriculum', 'faculty',
+        'conference', 'chalk', 'excessive', 'predict', 'observe'
+    ],
+    ['customize', 'inadequate', 'bias', 'sector', 'sector',
+        'perform', 'concrete', 'aware', 'obesity', 'incidence',
+        'induce', 'intake', 'consequently', 'priority', 'reveal'
+    ],
+    ['concentrate', 'vividly', 'evaluate', 'accurate', 'crime',
+        'principle', 'pollution', 'commission', 'anti', 'spoilt',
+        'appearance', 'merely', 'drastic', 'satisfaction', 'font'
+    ],
+    ['imply', 'absurd', 'unexpected', 'sensible', 'impossible',
+        'vast', 'conpensation', 'approach', 'eager', 'deny',
+        'motivate', 'involve', 'incentive', 'cultivate', 'spirit'
+    ],
+    ['domestic', 'affair', 'instinct', 'arouse', 'concern',
+        'effective', 'measure', 'addiction', 'universally', 'significance',
+        'spare', 'effort', 'perspective', 'drawback', 'genuinely'
+    ],
+]
