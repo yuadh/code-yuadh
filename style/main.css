@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'webfont';
+    src: url('../resource/font/PingFang.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-size: 16px;
+    color: #4c4948;
+    font-family: 'webfont';
+    line-height: 2;
+}
+
+.nav-main {
+    /* 1.定位属性  2.自身属性  3.文本属性  4.其它属性 */
+    /* 定位属性 */
+    position: relative;
+    margin: 100px auto;
+    padding: 1.5rem 3rem;
+    /*  */
+    /* 自身属性 */
+    background-color: #f7f9fe;
+    max-width: 1200px;
+    border: 1px solid #e3e8f7;
+    /* 文本属性 */
+    color: rgb(76, 73, 72);
+    /* 其它属性 */
+    border-radius: 12px;
+    box-shadow: 0px 12px 10px -5px rgba(102, 68, 68, 0.1);
+}
+
+.nav-module {
+    display: inline;
+    position: relative;
+    margin: 0.4rem 0px 1rem;
+    padding-top: .5rem;
+    padding-left: 0 !important;
+    color: #1f2d3d;
+}
+
+.nav-selects {
+    position: relative;
+    padding-top: .5rem;
+    padding-left: 0 !important;
+    font-family: 'webfont';
+    color: rgb(31, 45, 61);
+}
+
+
+/* 展示部分 */
+
+
+/* 盒子模型 */
+
+.page-selects {
+    margin: -20px;
+    margin-top: 1rem;
+    text-align: center;
+    overflow: auto;
+}
+
+
+/* 单个链接 */
+
+.page-selects-card {
+    position: relative;
+    margin: 6px 6px;
+    background-color: #edf0f7;
+    float: left;
+    overflow: hidden;
+    height: 90px;
+    width: calc(25% - 12px) !important;
+    line-height: 17px;
+    border-radius: 12px;
+    transition: all 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+.page-selects-card:hover {
+    transform: scale(1);
+    background-color: #425AEF;
+}
+
+.page-selects-card>a {
+    display: flex;
+    border: none;
+    color: #4c4948;
+    padding: 0 4px;
+    font-weight: 700;
+    background-color: transparent;
+    /* 加动画 */
+    transition: all 0.4s ease;
+}
+
+.page-selects-card>a>svg {
+    border-radius: 32px;
+    margin: 15px 20px 15px 15px;
+    min-width: 60px;
+    min-height: 60px;
+    width: 60px;
+    height: 60px;
+    background-color: #f7f9fe;
+    transition: .6s;
+}
+
+.page-selects-card:hover>a>svg {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    margin: .5rem;
+    min-width: 0;
+    min-height: 0;
+}
+
+.card-name {
+    display: block;
+    padding: 16px 10px 0px 0px;
+    text-align: left;
+    font-size: 19px;
+    font-weight: 700;
+    color: #363636;
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* 超出使用省略号 */
+    white-space: nowrap;
+    /* 换行无效 */
+}
+
+.page-selects-card:hover>a>.card-info>.card-name {
+    color: #e3e8f7;
+}
+
+.card-desc {
+    display: block;
+    white-space: normal;
+    padding: 5px 10px 16px 0;
+    text-align: left;
+    height: 40px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 0.93em;
+    color: #363636;
+    opacity: .7;
+}
+
+.page-selects-card:hover>a>.card-info>.card-desc {
+    color: #edf0f7;
+}
